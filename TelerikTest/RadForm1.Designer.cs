@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition2 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition3 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition4 = new Telerik.WinControls.UI.TableViewDefinition();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RadForm1));
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.radSplitContainer2 = new Telerik.WinControls.UI.RadSplitContainer();
@@ -220,7 +220,7 @@
             this.keybox.EditorControl.MasterTemplate.AllowColumnChooser = false;
             this.keybox.EditorControl.MasterTemplate.EnableGrouping = false;
             this.keybox.EditorControl.MasterTemplate.ShowFilteringRow = false;
-            this.keybox.EditorControl.MasterTemplate.ViewDefinition = tableViewDefinition1;
+            this.keybox.EditorControl.MasterTemplate.ViewDefinition = tableViewDefinition3;
             this.keybox.EditorControl.Name = "NestedRadGridView";
             this.keybox.EditorControl.ReadOnly = true;
             this.keybox.EditorControl.ShowGroupPanel = false;
@@ -319,7 +319,6 @@
             this.splitPanel4.TabIndex = 1;
             this.splitPanel4.TabStop = false;
             this.splitPanel4.Text = "splitPanel4";
-//            this.splitPanel4.Click += new System.EventHandler(this.splitPanel4_Click);
             // 
             // radButton3
             // 
@@ -331,7 +330,6 @@
             this.radButton3.TabIndex = 22;
             this.radButton3.Text = "Соединить";
             this.radButton3.ThemeName = "Office2013Light";
-          //  this.radButton3.Click += new System.EventHandler(this.radButton3_Click);
             // 
             // radButton9
             // 
@@ -381,7 +379,7 @@
             this.loginbox.EditorControl.MasterTemplate.AllowColumnChooser = false;
             this.loginbox.EditorControl.MasterTemplate.EnableGrouping = false;
             this.loginbox.EditorControl.MasterTemplate.ShowFilteringRow = false;
-            this.loginbox.EditorControl.MasterTemplate.ViewDefinition = tableViewDefinition2;
+            this.loginbox.EditorControl.MasterTemplate.ViewDefinition = tableViewDefinition4;
             this.loginbox.EditorControl.Name = "NestedRadGridView";
             this.loginbox.EditorControl.ReadOnly = true;
             this.loginbox.EditorControl.ShowGroupPanel = false;
@@ -464,7 +462,6 @@
             this.listBox2.Size = new System.Drawing.Size(120, 30);
             this.listBox2.TabIndex = 18;
             this.listBox2.Visible = false;
-           // this.listBox2.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
             // 
             // radButton4
             // 

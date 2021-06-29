@@ -34,23 +34,7 @@ using Word = Microsoft.Office.Interop.Word;
 
 namespace TelerikTest
 {
-    public class CustomRichTextEditorRibbonBar : RichTextEditorRibbonBar
-    {
-        protected override void Initialize()
-        {
-            base.Initialize();
-            buttonSaveHTML.Visible = false;
-            buttonSavePlain.Visible = false;
-            buttonSaveRich.Visible = false;
-            buttonXAML.Visible = false;
-            CloseButton = false;
-            MaximizeButton = false;
-            MinimizeButton = false;
-            LayoutMode = RibbonLayout.Simplified;
-            BuiltInStylesVersion = Telerik.WinForms.Documents.Model.Styles.BuiltInStylesVersion.Office2013;
-            ThemeName = "Office2013Light";
-        }
-    }
+    
     public partial class RadForm1 : Telerik.WinControls.UI.RadForm
     {
         private List<string> _foldersList = new List<string>();
@@ -826,6 +810,24 @@ namespace TelerikTest
             radButton1.Visible = true;
             radButton8.Visible = false;
 
+        }
+    }
+
+    public class CustomRichTextEditorRibbonBar : RichTextEditorRibbonBar
+    {
+        protected override void Initialize()
+        {
+            base.Initialize();
+            buttonSaveHTML.Visible = false;
+            buttonSavePlain.Visible = false;
+            buttonSaveRich.Visible = false;
+            buttonXAML.Visible = false;
+            CloseButton = false;
+            MaximizeButton = false;
+            MinimizeButton = false;
+            LayoutMode = RibbonLayout.Simplified;
+            BuiltInStylesVersion = Telerik.WinForms.Documents.Model.Styles.BuiltInStylesVersion.Office2013;
+            ThemeName = "Office2013Light";
         }
     }
 }
